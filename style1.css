@@ -1,0 +1,17 @@
+.img{
+        border: 1px solid #ddd;
+        border-radius: 4px;
+        padding: 5px;
+        width: 150px;
+   }
+body {
+    background-color: #A3A885;
+    display: inline-block;
+    margin: 8px;
+
+}
+hr{
+    background-color: white;
+    border-style: dotted none none;
+    width: 30%;
+}

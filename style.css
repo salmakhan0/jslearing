@@ -1,0 +1,124 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+* {
+  box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    background-color: black;
+}
+
+.content {
+    margin-left: 200px;
+  padding-left: 50px;
+  background-color: #1B2325;
+  margin-top:-46px;
+}
+.h1{
+    color: #F8F8F6;
+    text-align: center;
+    font-size: 70px;
+    font-family: 'Montserrat',sans-serif;
+    margin-bottom: 10px;
+}
+.p1{
+    color: #F8F8F6;
+    text-align: center;
+    font-family: "Lucida Console", "Courier New", monospace;
+    padding: 20px 40px 40px 40px ;
+}
+.img1{
+     border-radius: 10px;
+        width: 150px;
+        display: block;
+     margin-left: auto;
+     margin-right: auto;
+
+}
+.menu{
+    height: 100%;
+  width: 200px;
+  position: fixed;
+  z-index: 1;
+  background-image:url(imag/HD-wallpaper-leaves-plants-nature-dark-vertical-portrait-display-thumbnail.jpg);
+  overflow-x: hidden;
+}
+a{
+    color: #F8F8F6;
+    text-decoration: none;
+}
+li{
+    margin: 50px 0px 0px -135px;
+}
+li:hover {
+    margin: 50px 0px 0px -45px;
+}
+ul{
+    list-style-type: none;
+}
+.skill
+{
+    background-color: #075555;
+    padding: 15px 80px 15px 15px;
+    border-radius: 0 5px 5px 0;
+    transition: 0.3s;
+    font-size: 20px;   
+}
+.education{
+    background-color: #075555;
+    padding: 15px 25px 15px 15px;
+        border-radius: 0 5px 5px 0;
+        transition: 0.3s;
+        font-size: 20px;
+}
+.contact{
+    background-color: #075555;
+        padding: 15px;
+        border-radius: 0 5px 5px 0;
+        transition: 0.3s;
+        font-size: 20px;
+}
+.about
+{
+    background-color: #075555;
+    padding: 15px 60px 15px 15px;
+        border-radius: 0 5px 5px 0;
+        transition: 0.3s;
+        font-size: 20px;
+}
+.button1 {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    -webkit-tap-highlight-color: transparent;
+}
+
+button {
+    width: 150px;
+    margin-left:44%;
+    margin-top: -20px;
+    margin-bottom: 20px;
+    height: 50px;
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: bold;
+    color: black;
+    background: white;
+    border: 1px solid black;
+    box-shadow: 5px 5px 0 black,
+        -5px -5px 0 black,
+        -5px 5px 0 black,
+        5px -5px 0 black;
+    transition: 500ms ease-in-out; 
+}
+
+button:hover {
+    box-shadow: 20px 5px 0 black, -20px -5px 0 black;
+}
+
+button:focus {
+    outline: none;
+}
